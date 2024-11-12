@@ -1,5 +1,5 @@
-- []
-- []
-- []
-- []
-- []
+- [x] Briefly analyze similar travel and activity recommendation platforms.
+- [x] Determine the project's essential features: activity categories, location-based filtering, and a simple details page.
+- [x] Set up Flask
+- [] Create a simple data file to store activities, locations, and descriptions.
+- [] 
