@@ -8,5 +8,6 @@
 - [x] Update HTML files to link CSS file
 - [ ] Add more categories/activities
 - [ ] Maybe add URLs
+- [ ] Images?
 - [ ] JavaScript?
 - [ ] Edit all files to update whatever change I did
