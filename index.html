@@ -1,16 +1,19 @@
 <head>
     <meta charset="UTF-8">
     <title>Things to Do in Georgia</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
 </head>
 <body>
-    <h1>What do you want to do today?</h1>
-    <form action="/activities" method="POST">
-        <select name="category">
-            {% for category in categories %}
-                <option value="{{ category }}">{{ category }}</option>
-            {% endfor %}
-        </select>
-        <button type="submit">Find Activities</button>
-    </form>
+    <div class="container">
+        <h1>What do you want to do today?</h1>
+        <form action="/activities" method="POST">
+            <select name="category">
+                {% for category in categories %}
+                    <option value="{{ category }}">{{ category }}</option>
+                {% endfor %}
+            </select>
+            <button type="submit">Find Activities</button>
+        </form>
+    </div>
 </body>
 </html>
