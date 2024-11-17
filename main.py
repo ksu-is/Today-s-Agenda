@@ -7,7 +7,6 @@ activities = {
     "Outdoor Adventures": [
         {"name": "Hiking at Tallulah Gorge", "location": "Tallulah Falls", "description": "A scenic hike with waterfalls and views."},
         {"name": "Kayaking on the Chattahoochee River", "location": "Atlanta", "description": "A fun river adventure right in the city."}
-        {"name": "Sope Creek Mountain Bike Trail", "location": "Marietta", "description": "A mix of terrains suitable for mountain biking, hiking, and trail running"}
     ],
     "Historical Sites": [
         {"name": "Savannah Historic District", "location": "Savannah", "description": "Beautiful historic squares and buildings."},
