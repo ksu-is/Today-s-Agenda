@@ -1,1 +1,18 @@
-
+<head>
+    <meta charset="UTF-8">
+    <title>Activities - {{ category }}</title>
+</head>
+<body>
+    <h1>{{ category }}</h1>
+    <ul>
+        {% for activity in activities %}
+            <li>
+                <h2>{{ activity.name }}</h2>
+                <p>Location: {{ activity.location }}</p>
+                <p>{{ activity.description }}</p>
+            </li>
+        {% endfor %}
+    </ul>
+    <a href="/">Go Back</a>
+</body>
+</html>
