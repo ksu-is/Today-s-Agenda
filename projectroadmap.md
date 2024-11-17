@@ -6,3 +6,7 @@
 - [x] Create index and activities HTML
 - [x] Add CSS file for styling
 - [x] Update HTML files to link CSS file
+- [ ] Add more categories/activities
+- [ ] Maybe add URLs
+- [ ] JavaScript?
+- [ ] Edit all files to update whatever change I did
