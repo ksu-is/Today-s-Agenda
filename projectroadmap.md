@@ -3,3 +3,5 @@
 - [x] Set up Flask
 - [x] Create a simple data file to store activities, locations, and descriptions.
 - [] Create HMTL templates
+- [] Create index and activities HTML
+- [] Add CSS file for styling 
