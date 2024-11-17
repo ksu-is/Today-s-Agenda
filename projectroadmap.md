@@ -2,6 +2,7 @@
 - [x] Determine the project's essential features: activity categories, location-based filtering, and a simple details page.
 - [x] Set up Flask
 - [x] Create a simple data file to store activities, locations, and descriptions.
-- [] Create HMTL templates
-- [] Create index and activities HTML
-- [] Add CSS file for styling 
+- [x] Create HMTL templates
+- [x] Create index and activities HTML
+- [x] Add CSS file for styling
+- [x] Update HTML files to link CSS file
