@@ -1,18 +1,21 @@
 <head>
     <meta charset="UTF-8">
     <title>Activities - {{ category }}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
 </head>
 <body>
-    <h1>{{ category }}</h1>
-    <ul>
-        {% for activity in activities %}
-            <li>
-                <h2>{{ activity.name }}</h2>
-                <p>Location: {{ activity.location }}</p>
-                <p>{{ activity.description }}</p>
-            </li>
-        {% endfor %}
-    </ul>
-    <a href="/">Go Back</a>
+    <div class="container">
+        <h1>{{ category }}</h1>
+        <ul>
+            {% for activity in activities %}
+                <li>
+                    <h2>{{ activity.name }}</h2>
+                    <p>Location: {{ activity.location }}</p>
+                    <p>{{ activity.description }}</p>
+                </li>
+            {% endfor %}
+        </ul>
+        <a href="/">Go Back</a>
+    </div>
 </body>
 </html>
