@@ -92,3 +92,12 @@ a:hover {
     text-decoration: underline;
     color: #0056b3;
 }
+
+.activity-image {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
