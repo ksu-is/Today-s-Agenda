@@ -7,7 +7,7 @@
 - [x] Add CSS file for styling
 - [x] Update HTML files to link CSS file
 - [ ] Add more categories/activities
-- [ ] Maybe add URLs
+- [ ] Maybe add URLs to take person to the site of the activity they chose
 - [ ] Images?
 - [ ] JavaScript?
 - [ ] Edit all files to update whatever change I did
