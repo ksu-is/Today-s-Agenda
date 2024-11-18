@@ -9,6 +9,7 @@
         <ul>
             {% for activity in activities %}
                 <li>
+                    <img src="{{ activity.image }}" alt="{{ activity.name }}" class="activity-image">
                     <h2>{{ activity.name }}</h2>
                     <p>Location: {{ activity.location }}</p>
                     <p>{{ activity.description }}</p>
