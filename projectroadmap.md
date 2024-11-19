@@ -6,8 +6,9 @@
 - [x] Create index and activities HTML
 - [x] Add CSS file for styling
 - [x] Update HTML files to link CSS file
-- [ ] Add more categories/activities
+- [x] Add more categories/activities
 - [x] Maybe add URLs to take the person to the site of the activity they chose
 - [x] Images?
 - [ ] JavaScript?
+- [ ] Leaflet?
 - [ ] Edit all files to update whatever change I did
