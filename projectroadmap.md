@@ -8,6 +8,6 @@
 - [x] Update HTML files to link CSS file
 - [ ] Add more categories/activities
 - [x] Maybe add URLs to take the person to the site of the activity they chose
-- [ ] Images?
+- [x] Images?
 - [ ] JavaScript?
 - [ ] Edit all files to update whatever change I did
