@@ -11,5 +11,5 @@
 - [x] Images?
 - [ ] JavaScript?
 - [ ] Leaflet for an interactive map?'
-- [ ] Add reviews for each activity or let someone review the website? (either take a person to other reviews of the activity or let them review about the website (or both))
+- [ ] Add reviews for each activity or let someone review the website? (either take a person to other reviews of the activity or let them review the website (or both))
 - [ ] Edit all files to update whatever change I did
