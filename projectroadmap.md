@@ -11,5 +11,5 @@
 - [x] Images?
 - [ ] JavaScript?
 - [ ] Leaflet for an interactive map?'
-- [ ] Add reviews?
+- [ ] Add reviews for each activity?
 - [ ] Edit all files to update whatever change I did
