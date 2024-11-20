@@ -90,6 +90,31 @@ activities = {
          "description": "Discover Savannah's best cuisine with a guided tour.",
          "url": "https://www.savannahfoodtours.com/",
          "image": "https://savannahfoodtours.com/wp-content/uploads/2023/05/Flavors-Logo.png"}
+    ],
+    "Arts & Culture": [
+        {"name": "High Museum of Art",
+         "location": "Atlanta",
+         "description": "A premier art museum in the Southeast.",
+         "url": "https://high.org/",
+         "image": "https://exploregeorgia.org/sites/default/files/listing_images/profile/1783/a05172755d59df6cdd317f9dfe102304_high-museum.jpg"},
+        
+        {"name": "Fox Theatre",
+         "location": "Atlanta",
+         "description": "Catch a live performance at this historic theater.",
+         "url": "https://www.foxtheatre.org/",
+         "image": "https://exploregeorgia.org/sites/default/files/listing_images/profile/1429/yukari_umekawa_Stage2.jpg"},
+        
+        {"name": "Telfair Museums",
+         "location": "Savannah",
+         "description": "Explore fine art and historic homes.",
+         "url": "https://www.telfair.org/",
+         "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmuSzzJftjr-H1p7LlLxNPO0VU4N0eVg1aFQ&s"},
+        
+        {"name": "Atlanta Botanical Garden",
+         "location": "Atlanta",
+         "description": "Stroll through beautiful gardens and exhibits.",
+         "url": "https://atlantabg.org/",
+         "image": "https://lh3.googleusercontent.com/p/AF1QipOrlE1P8aLXBGkAaSHaB7QuG3a-pkHXGlxSiu4X=s188-p-k"}
     ]
 }
 
