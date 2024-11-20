@@ -10,5 +10,5 @@
 - [x] Maybe add URLs to take the person to the site of the activity they chose
 - [x] Images?
 - [ ] JavaScript?
-- [ ] Leaflet?
+- [ ] Leaflet for an interactive map?
 - [ ] Edit all files to update whatever change I did
