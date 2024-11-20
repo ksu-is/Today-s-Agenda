@@ -114,7 +114,13 @@ activities = {
          "location": "Atlanta",
          "description": "Stroll through beautiful gardens and exhibits.",
          "url": "https://atlantabg.org/",
-         "image": "https://lh3.googleusercontent.com/p/AF1QipOrlE1P8aLXBGkAaSHaB7QuG3a-pkHXGlxSiu4X=s188-p-k"}
+         "image": "https://lh3.googleusercontent.com/p/AF1QipOrlE1P8aLXBGkAaSHaB7QuG3a-pkHXGlxSiu4X=s188-p-k"},
+        
+        {"name": "Georgia Aqauarim",
+         "location": "Atlanta",
+         "description": "Largest aquarium in the United States, featuring thousands of marine animals across diverse habitats, including whale sharks and beluga whales.",
+         "url": "https://www.georgiaaquarium.org/",
+         "image": "https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcTKQWJ28HRbUs86Xuxs8aZ_H4JAH1yu2SkXaJwp8pz-9cttZ8A6sxE7zhbY82-798kcZ5gkkL-93xL7JPM-HyBl7A_BKKaPq_3fb2Lefg",}
     ]
 }
 
