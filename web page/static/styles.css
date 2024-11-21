@@ -47,7 +47,7 @@ select {
 }
 
 button {
-    background-color: #4caf50;
+    background-color: #ff0000;
     color: white;
     border: none;
     cursor: pointer;
@@ -55,7 +55,7 @@ button {
 }
 
 button:hover {
-    background-color: #45a049;
+    background-color: #eb7d7d;
 }
 
 /* Activity List */
@@ -104,3 +104,12 @@ a:hover {
     border-radius: 8px;
     margin-bottom: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);}
+
+.Bio_url{
+    color: #ff0f0f;
+}
+
+.Bio_url:hover{
+    text-decoration: underline;
+    color: #d66c6c;
+}
