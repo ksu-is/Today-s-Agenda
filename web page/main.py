@@ -120,7 +120,13 @@ activities = {
          "location": "Atlanta",
          "description": "Largest aquarium in the United States, featuring thousands of marine animals across diverse habitats, including whale sharks and beluga whales.",
          "url": "https://www.georgiaaquarium.org/",
-         "image": "https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcTKQWJ28HRbUs86Xuxs8aZ_H4JAH1yu2SkXaJwp8pz-9cttZ8A6sxE7zhbY82-798kcZ5gkkL-93xL7JPM-HyBl7A_BKKaPq_3fb2Lefg",}
+         "image": "https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcTKQWJ28HRbUs86Xuxs8aZ_H4JAH1yu2SkXaJwp8pz-9cttZ8A6sxE7zhbY82-798kcZ5gkkL-93xL7JPM-HyBl7A_BKKaPq_3fb2Lefg"},
+
+        {"name": "National Parliamentary Library",
+         "location": "Tbilisi",
+         "description": "The history of National Parliamentary Library of Georgia begins from 1846 when Tiflis Public Library.",
+         "url": "https://www.nplg.gov.ge/eng/home",
+         "image": "https://upload.wikimedia.org/wikipedia/commons/4/4d/NPLG_building%2C_Tbilisi.jpg",}
     ]
 }
 
