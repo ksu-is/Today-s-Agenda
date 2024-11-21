@@ -26,7 +26,7 @@ activities = {
          {"name": "Red Top Mountain State Park", 
          "location": "Acworth", 
          "description": "Includes hiking, campsites, cabins, and a marina", 
-         "url": "https://gastateparks.org/RedTopMountain",
+         "url": "https://gastatepark`s.org/RedTopMountain",
          "image": "https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcR46ti3hGmwGye0JGP9eEZrvKJfHAvionR1VABiWAQKwjsnWTmVsPebAS2MWvgF4jIwFMfjkjsHVrYfGlyok4vExomoR9IBZgzGkSZkqw"},
          
          {"name": "Stone Mountain Park",
