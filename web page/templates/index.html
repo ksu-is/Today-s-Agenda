@@ -1,22 +1,37 @@
 <head>
     <meta charset="UTF-8">
-    <title>Things to Do in the State of Georgia</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Things to Do in Georgia</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
-    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-    <script defer src="{{ url_for('static', filename='scripts.js') }}"></script>
 </head>
 <body>
     <div class="container">
-        <h1>Discover Amazing Activities to Do in Georgia</h1>
-        <p>What are you in the mood for today? Adventure, history, food, or arts—we’ve got you covered!</p>
-        <form action="/activities" method="POST">
-            <select name="category">
-                {% for category in categories %}
-                    <option value="{{ category }}">{{ category }}</option>
-                {% endfor %}
-            </select>
-            <button type="submit">Find Activities</button>
-        </form>
+        <h1>Amazing Activities in The Peach State</h1>
+        <p>Choose a category to get started!</p>
+
+        <!-- Tab Content -->
+        <div id="tab-content">
+            <div id="outdoor" class="tab-pane">
+                <p>Discover Georgia's great outdoors, from hiking trails to serene rivers.</p>
+                <a href="/activities/Outdoor Adventures" class="btn">Outdoor Adventures</a>
+            </div>
+            <div id="historical" class="tab-pane hidden">
+                <p>Step back in time and visit Georgia's rich historical landmarks.</p>
+                <a href="/activities/Historical Sites" class="btn">Historical Sites</a>
+            </div>
+            <div id="food" class="tab-pane hidden">
+                <p>Savor Georgia's unique culinary experiences and vibrant food scene.</p>
+                <a href="/activities/Food & Drink" class="btn">Food & Drink</a>
+            </div>
+            <div id="arts" class="tab-pane hidden">
+                <p>Immerse yourself in Georgia's art, music, and cultural events.</p>
+                <a href="/activities/Arts & Culture" class="btn">Arts & Culture</a>
+            </div>
+        </div>
+
+
+        <footer>
+            <p>&copy; 2024 What to Do Today in Georgia. All Rights Reserved.</p>
+        </footer>
     </div>
 </body> 
