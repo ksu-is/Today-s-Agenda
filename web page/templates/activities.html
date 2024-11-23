@@ -1,14 +1,16 @@
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Activities - {{ category }}</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-    <script defer src="{{ url_for('static', filename='scripts.js') }}"></script>
 </head>
 <body>
     <div class="container">
         <h1>{{ category }}</h1>
+        <p>Click on the map markers at the bottom of the page for more details!</p>
+
         <ul>
             {% for activity in activities %}
                 <li>
@@ -21,24 +23,27 @@
             {% endfor %}
         </ul>
         <a href="/">Go Back</a>
-        <div id="map" style="height: 400px; margin-bottom: 20px;"></div>
+
+        <!-- Map Container -->
+        <div id="map" style="height: 400px; margin-top: 20px;"></div>
     </div>
 
     <script>
         // Initialize the map
-        var map = L.map('map').setView([32.1656, -82.9001], 7); 
+        var map = L.map('map').setView([32.1656, -82.9001], 7); // Center on Georgia
 
+        // Add OpenStreetMap tiles
         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
             maxZoom: 18,
             attribution: '© OpenStreetMap contributors'
         }).addTo(map);
 
-        // Add activity markers
+        // Add markers for activities
         {% for activity in activities %}
         L.marker([{{ activity.coordinates[0] }}, {{ activity.coordinates[1] }}])
             .addTo(map)
             .bindPopup(
-                "<b>{{ activity.name }}</b><br>{{ activity.location }}<br><a href='{{ activity.url }}' target='_blank'>Learn More</a>"
+                `<b>{{ activity.name }}</b><br>{{ activity.location }}<br><a href="{{ activity.url }}" target="_blank">Learn More</a>`
             );
         {% endfor %}
     </script>
