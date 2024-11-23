@@ -2,8 +2,16 @@ from flask import Flask, render_template, request
 
 app = Flask(__name__)
 
-# Sample data for activities in Georgia
-activities = {
+# Home page
+@app.route("/")
+def home():
+    return render_template("index.html")
+
+# Routes for each activity category
+@app.route("/activities/<category>")
+def activities(category):
+    # Sample data for activities in Georgia
+    activities = {
     "Outdoor Adventures": [
         {"name": "Tallulah Gorge State Park", 
          "location": "Tallulah Falls", 
@@ -142,18 +150,8 @@ activities = {
          "coordinates": [33.76354252067632, -84.39516344704124]}
     ]
 }
-
-# Homepage - Ask user what they want to do
-@app.route('/')
-def home():
-    return render_template('index.html', categories=activities.keys())
-
-# Show activities based on user choice
-@app.route('/activities', methods=['POST'])
-def show_activities():
-    category = request.form.get('category')
-    chosen_activities = activities.get(category, [])
-    return render_template('activities.html', category=category, activities=chosen_activities)
-
+    if category in activities:
+        return render_template("activities.html", category=category, activities=activities[category])
+    
 if __name__ == '__main__':
     app.run(debug=True)
